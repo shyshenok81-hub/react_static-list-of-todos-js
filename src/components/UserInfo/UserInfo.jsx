@@ -1,5 +1,5 @@
 export const UserInfo = ({ user }) => (
-  <a className="UserInfo" href="mailto:Sincere@april.biz">
+  <a className="UserInfo" href={user.email}>
     {user ? user.name : null}
   </a>
 );
